@@ -1,6 +1,7 @@
 package com.itDev.puntoVentas.data.dao;
 
-import java.util.logging.Logger;
+
+
 
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
@@ -45,4 +46,5 @@ public class BaseRepository<T> {
 		eMgr.remove(t);
 		eMgr.getTransaction().commit();
 	}
+	
 }
