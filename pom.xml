@@ -5,7 +5,7 @@
   <groupId>com.itDev.puntoVentas.api</groupId>
   <artifactId>puntoVentsaServer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>ejb</packaging>
 
   <name>puntoVentsaServer</name>
   <url>http://maven.apache.org</url>
@@ -32,5 +32,10 @@
     <version>9.0-801.jdbc4</version>
 </dependency>
 
+  	<dependency>
+  		<groupId>org.jasypt</groupId>
+  		<artifactId>jasypt</artifactId>
+  		<version>1.9.2</version>
+  	</dependency>
   </dependencies>
 </project>
