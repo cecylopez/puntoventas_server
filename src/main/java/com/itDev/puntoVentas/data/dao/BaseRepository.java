@@ -8,7 +8,7 @@ import javax.persistence.TypedQuery;
 
 public class BaseRepository<T> {
 
-	public static final String PERSISTENCE_UNIT = "puntoventas_db";
+	public static final String PERSISTENCE_UNIT = "PuntoVentas_DB";
 	protected EntityManager eMgr;
 	protected Class<T> clase;
 	
@@ -46,5 +46,6 @@ public class BaseRepository<T> {
 		eMgr.remove(t);
 		eMgr.getTransaction().commit();
 	}
+	
 	
 }
